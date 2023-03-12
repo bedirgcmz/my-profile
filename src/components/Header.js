@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import profileImg from "./image/profile.jpg";
 
-const Header = ({ bacgroundOpc, color, borderBottom, bacgroundDark }) => {
+const Header = ({ bacgroundOpc, borderLinkOpc, color, borderBottom, bacgroundDark }) => {
+  // ana div clasindan alindi ${borderBottom} ${bacgroundOpc}
+  // link claslarindan alindi ${bacgroundDark}
   return (
-    <div
-      className={`${bacgroundOpc} ${borderBottom} ${color} header d-flex flex-column justify-content-between px-5 w-100`}
-    >
+    <div className={`  ${color} header d-flex flex-column justify-content-between px-5 w-100`}>
       <div className="img-info-slogan  d-flex justify-content-around align-items-center">
         <div className="img-container align-items-center d-flex mt-2">
           <img
@@ -23,16 +23,16 @@ const Header = ({ bacgroundOpc, color, borderBottom, bacgroundDark }) => {
         <p className="slogan">If you work hard, you will succeed!</p>
       </div>
       <div className="links d-flex justify-content-end align-items-center">
-        <Link className={`${bacgroundDark}`} to="/">
+        <Link className={`${borderLinkOpc} ${color}`} to="/">
           About Me
         </Link>
-        <Link className={`${bacgroundDark}`} to="/skills-hobbies">
+        <Link className={`${borderLinkOpc} ${color}`} to="/skills-hobbies">
           Skills & Hobbies
         </Link>
-        <Link className={`${bacgroundDark}`} to="/education">
+        <Link className={`${borderLinkOpc} ${color}`} to="/education">
           Education{" "}
         </Link>
-        <Link className={`${bacgroundDark}`} to="/work-experience">
+        <Link className={`${borderLinkOpc} ${color}`} to="/work-experience">
           Work Experience
         </Link>
       </div>

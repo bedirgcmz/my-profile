@@ -20,7 +20,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 .bg {
-  background-color: #f4f3e9f0;
+  background-color: #fffffff0;
   width: 100%;
   min-height: 100vh;
   margin: auto;
@@ -37,7 +37,7 @@ code {
 
 /* 
 #7DB9B6 acik mat mavi
-#A6BB8D acik mat yesil
+#97b376 acik mat yesil
 #C7BCA1 acik mat gri
 #ECCCB2 acik mat pembe
 
@@ -48,10 +48,13 @@ code {
   background-color: #7db9b6;
 }
 .bg-opc-dark-brown {
-  background-color: #7db9b663;
+  background-color: #7db9b6;
 }
 .cl-dark-brown {
-  color: #7db9b6;
+  color: #4a7f7c;
+}
+.br-link-opc-brown {
+  border: 2px solid #7db9b663;
 }
 .br-btm-dark-brown {
   border-bottom: 11px solid #7db9b6;
@@ -68,25 +71,28 @@ code {
 
 /* Green */
 .bg-dark-blue {
-  background-color: #a6bb8d;
+  background-color: #97b376;
 }
 .bg-opc-dark-blue {
-  background-color: #a6bb8d63;
+  background-color: #97b376;
+}
+.br-link-opc-blue {
+  border: 2px solid #97b37663;
 }
 .cl-dark-blue {
-  color: #a6bb8d;
+  color: #4a5b37;
 }
 .br-btm-dark-blue {
-  border-bottom: 11px solid #a6bb8d;
+  border-bottom: 11px solid #97b376;
 }
 .br-top-dark-blue {
-  border-top: 11px solid #a6bb8d;
+  border-top: 11px solid #97b376;
 }
 .br-right-dark-blue {
-  border-right: 11px solid #a6bb8d;
+  border-right: 11px solid #97b376;
 }
 .br-left-dark-blue {
-  border-left: 11px solid #a6bb8d;
+  border-left: 11px solid #97b376;
 }
 
 /* Grey */
@@ -94,10 +100,13 @@ code {
   background-color: #c7bca1;
 }
 .bg-opc-dark-orange {
-  background-color: #c7bca163;
+  background-color: #c7bca1;
+}
+.br-link-opc-orange {
+  border: 2px solid #c7bca163;
 }
 .cl-dark-orange {
-  color: #c7bca1;
+  color: #ae8565;
 }
 .br-btm-dark-orange {
   border-bottom: 11px solid #c7bca1;
@@ -117,10 +126,13 @@ code {
   background-color: #ecccb2;
 }
 .bg-opc-dark-purple {
-  background-color: #ecccb263;
+  background-color: #ecccb2;
+}
+.br-link-opc-purple {
+  border: 2px solid #ecccb263;
 }
 .cl-dark-purple {
-  color: #ecccb2;
+  color: #ce8d57;
 }
 .br-btm-dark-purple {
   border-bottom: 11px solid #ecccb2;

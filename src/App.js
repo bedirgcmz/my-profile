@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 export default function App() {
   const [colorButton, setColorButton] = useState(true);
   const [bacgroundOpc, setBackgroundOpc] = useState("bg-opc-dark-brown");
+  const [borderLinkOpc, setBorderLinkOpc] = useState("br-link-opc-brown");
   const [bacgroundDark, setBackgroundDark] = useState("bg-dark-brown");
   const [color, setColor] = useState("cl-dark-brown");
   const [borderBottom, setBorderBottom] = useState("br-btm-dark-brown");
@@ -24,6 +25,7 @@ export default function App() {
   };
   const getColorBlue = () => {
     setBackgroundOpc("bg-opc-dark-blue");
+    setBorderLinkOpc("br-link-opc-blue");
     setBackgroundDark("bg-dark-blue");
     setColor("cl-dark-blue");
     setBorderBottom("br-btm-dark-blue");
@@ -34,6 +36,7 @@ export default function App() {
 
   const getColorBrown = () => {
     setBackgroundOpc("bg-opc-dark-brown");
+    setBorderLinkOpc("br-link-opc-brown");
     setBackgroundDark("bg-dark-brown");
     setColor("cl-dark-brown");
     setBorderBottom("br-btm-dark-brown");
@@ -44,6 +47,7 @@ export default function App() {
 
   const getColorOrange = () => {
     setBackgroundOpc("bg-opc-dark-orange");
+    setBorderLinkOpc("br-link-opc-orange");
     setBackgroundDark("bg-dark-orange");
     setColor("cl-dark-orange");
     setBorderBottom("br-btm-dark-orange");
@@ -54,6 +58,7 @@ export default function App() {
 
   const getColorPurple = () => {
     setBackgroundOpc("bg-opc-dark-purple");
+    setBorderLinkOpc("br-link-opc-purple");
     setBackgroundDark("bg-dark-purple");
     setColor("cl-dark-purple");
     setBorderBottom("br-btm-dark-purple");
@@ -66,6 +71,7 @@ export default function App() {
       <Router>
         <Header
           bacgroundOpc={bacgroundOpc}
+          borderLinkOpc={borderLinkOpc}
           color={color}
           borderBottom={borderBottom}
           bacgroundDark={bacgroundDark}

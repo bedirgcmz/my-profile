@@ -45,7 +45,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
         <div className="dashboard row">
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name html`}>Html</span>
+              <span className={`${bacgroundOpc} ${color} skills-name html`}>Html</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-1" cx="48" cy="44" r="30" />
@@ -54,7 +54,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name css`}>Css</span>
+              <span className={`${bacgroundOpc} ${color} skills-name css`}>Css</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-2" cx="48" cy="44" r="30" />
@@ -63,7 +63,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name bootstrap`}>Bootstrap</span>
+              <span className={`${bacgroundOpc} ${color} skills-name bootstrap`}>Bootstrap</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-3" cx="48" cy="44" r="30" />
@@ -72,7 +72,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name javascript`}>Javascript</span>
+              <span className={`${bacgroundOpc} ${color} skills-name javascript`}>Javascript</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-4" cx="48" cy="44" r="30" />
@@ -81,7 +81,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>React</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>React</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-5" cx="48" cy="44" r="30" />
@@ -91,7 +91,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           {/* 2. Duzenlemede eklenenler */}
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>Git</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>Git</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-6" cx="48" cy="44" r="30" />
@@ -100,7 +100,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>Github</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>Github</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-7" cx="48" cy="44" r="30" />
@@ -109,7 +109,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>MySql</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>MySql</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-8" cx="48" cy="44" r="30" />
@@ -118,7 +118,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>Nodejs</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>Nodejs</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-9" cx="48" cy="44" r="30" />
@@ -127,7 +127,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>Agile</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>Agile</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-10" cx="48" cy="44" r="30" />
@@ -136,7 +136,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name react`}>Jira</span>
+              <span className={`${bacgroundOpc} ${color} skills-name react`}>Jira</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-11" cx="48" cy="44" r="30" />
@@ -153,7 +153,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
         <div className="dashboard row">
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name movie`}>W.Movie</span>
+              <span className={`${bacgroundOpc} ${color} skills-name movie`}>W.Movie</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-30" cx="48" cy="44" r="30" />
@@ -162,7 +162,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name food`}>To C.Food</span>
+              <span className={`${bacgroundOpc} ${color} skills-name food`}>To C.Food</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-31" cx="48" cy="44" r="30" />
@@ -171,7 +171,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name book`}>R.Book</span>
+              <span className={`${bacgroundOpc} ${color} skills-name book`}>R.Book</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-32" cx="48" cy="44" r="30" />
@@ -180,7 +180,7 @@ const SkillsHobbies = ({ bacgroundOpc, color }) => {
           </div>
           <div className="col-md-4 col-lg-2 col-sm-6 progress-container d-flex justify-content-center mb-2">
             <div className="skill-and-name ">
-              <span className={`${bacgroundOpc} skills-name travel`}>To Travel</span>
+              <span className={`${bacgroundOpc} ${color} skills-name travel`}>To Travel</span>
               <svg>
                 <circle className="bgr" cx="49" cy="42" r="30" />
                 <circle className="meter-33" cx="48" cy="44" r="30" />
