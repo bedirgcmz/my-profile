@@ -1,0 +1,184 @@
+.dashboard {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+svg {
+  width: 95px;
+  height: 85px;
+  margin: 0.2rem 0.5rem 0 0.5rem;
+}
+.kurdish {
+  background-color: #7db9b6 !important;
+}
+.turkish {
+  background-color: #66cd9d !important;
+}
+.swedish {
+  background-color: #efcb61 !important;
+}
+.english {
+  background-color: #e57d87 !important;
+}
+.bgr {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #41464b80;
+}
+
+.skill-and-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+  padding-top: 18px;
+  border-radius: 20px;
+  width: 100px;
+}
+.skills-name {
+  font-weight: 700;
+  width: 60px;
+  border-radius: 10px;
+  color: white;
+  font-size: 0.7rem;
+  padding: 3px;
+  text-align: center;
+}
+
+[class^="meter-"] {
+  fill: none;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.meter-1 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 193;
+  stroke: #82ecde;
+  animation: progress-1 1s ease-out;
+}
+.meter-2 {
+  stroke: #bdf08a;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 205;
+  animation: progress-2 0.75s ease-out;
+}
+.meter-3 {
+  stroke: #9b80e3;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 210;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-4 {
+  stroke: #f3e58c;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 225;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-5 {
+  stroke: #aa99f4;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 225;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-6 {
+  stroke: #f19c87;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 240;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-7 {
+  stroke: #76dfb3;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 240;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-8 {
+  stroke: #97e8f1;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 290;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-9 {
+  stroke: #ebba85;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 280;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-10 {
+  stroke: #ebd98a;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 280;
+  animation: progress-3 0.5s ease-out;
+}
+.meter-11 {
+  stroke: #ef9aee;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 280;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-30 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 200;
+  stroke: #93ede1;
+  animation: progress-1 1s ease-out;
+}
+.meter-31 {
+  stroke: #b9e989;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 220;
+  animation: progress-2 0.75s ease-out;
+}
+.meter-32 {
+  stroke: #eecc78;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 245;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-33 {
+  stroke: #ec94a3;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 265;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-34 {
+  stroke: #fee440;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 220;
+  animation: progress-3 0.5s ease-out;
+}
+
+@keyframes progress-1 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes progress-2 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 160;
+  }
+}
+
+@keyframes progress-3 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 250;
+  }
+}

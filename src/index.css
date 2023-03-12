@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./components/image/background-img.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.bg {
+  background-color: #f4f3e9f0;
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  /* position: relative; */
+}
+
+/* 
+#7DB9B6
+#9e2a2b
+#e09f3e
+#fff3b0
+#335c67
+*/
+
+/* 
+#7DB9B6 acik mat mavi
+#A6BB8D acik mat yesil
+#C7BCA1 acik mat gri
+#ECCCB2 acik mat pembe
+
+*/
+
+/* Blue */
+.bg-dark-brown {
+  background-color: #7db9b6;
+}
+.bg-opc-dark-brown {
+  background-color: #7db9b663;
+}
+.cl-dark-brown {
+  color: #7db9b6;
+}
+.br-btm-dark-brown {
+  border-bottom: 11px solid #7db9b6;
+}
+.br-top-dark-brown {
+  border-top: 11px solid #7db9b6;
+}
+.br-right-dark-brown {
+  border-right: 11px solid #7db9b6;
+}
+.br-left-dark-brown {
+  border-left: 11px solid #7db9b6;
+}
+
+/* Green */
+.bg-dark-blue {
+  background-color: #a6bb8d;
+}
+.bg-opc-dark-blue {
+  background-color: #a6bb8d63;
+}
+.cl-dark-blue {
+  color: #a6bb8d;
+}
+.br-btm-dark-blue {
+  border-bottom: 11px solid #a6bb8d;
+}
+.br-top-dark-blue {
+  border-top: 11px solid #a6bb8d;
+}
+.br-right-dark-blue {
+  border-right: 11px solid #a6bb8d;
+}
+.br-left-dark-blue {
+  border-left: 11px solid #a6bb8d;
+}
+
+/* Grey */
+.bg-dark-orange {
+  background-color: #c7bca1;
+}
+.bg-opc-dark-orange {
+  background-color: #c7bca163;
+}
+.cl-dark-orange {
+  color: #c7bca1;
+}
+.br-btm-dark-orange {
+  border-bottom: 11px solid #c7bca1;
+}
+.br-top-dark-orange {
+  border-top: 11px solid #c7bca1;
+}
+.br-right-dark-orange {
+  border-right: 11px solid #c7bca1;
+}
+.br-left-dark-orange {
+  border-left: 11px solid #c7bca1;
+}
+
+/* Purple */
+.bg-dark-purple {
+  background-color: #ecccb2;
+}
+.bg-opc-dark-purple {
+  background-color: #ecccb263;
+}
+.cl-dark-purple {
+  color: #ecccb2;
+}
+.br-btm-dark-purple {
+  border-bottom: 11px solid #ecccb2;
+}
+.br-top-dark-purple {
+  border-top: 11px solid #ecccb2;
+}
+.br-right-dark-purple {
+  border-right: 11px solid #ecccb2;
+}
+.br-left-dark-purple {
+  border-left: 11px solid #ecccb2;
+}

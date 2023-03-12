@@ -1,0 +1,305 @@
+/* Header css  */
+.header {
+  height: 9.3rem;
+  border-radius: 0 0 25px 25px;
+  position: relative;
+  font-family: "Finlandica", sans-serif;
+}
+
+.profile-img {
+  box-shadow: rgb(231 224 224) 0px 2px 4px, rgb(234 227 227) 0px 7px 13px -3px,
+    rgb(240 235 235 / 0%) 0px -3px 0px inset;
+}
+.profile-img:hover {
+  transform: scale(1.1);
+}
+.info p {
+  font-size: 0.8rem;
+}
+
+.slogan {
+  font-family: "Courgette", cursive;
+  font-size: 2rem;
+}
+
+.links {
+  position: absolute;
+  bottom: -7px;
+  right: 5%;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  width: 120px;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  height: 40px;
+  line-height: 35px;
+  font-weight: 600;
+  margin-left: 24px;
+}
+.links a:hover {
+  transform: scale(1.2);
+  color: #9e9e9e;
+}
+.links a:hover .header {
+  background-color: #fff !important;
+}
+/* Header Responsive */
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 14rem;
+    padding: 5px !important;
+  }
+  .img-info-slogan {
+    flex-direction: column;
+  }
+  .slogan {
+    top: 146px;
+    right: 10%;
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  .links {
+    position: static;
+    justify-content: center !important;
+  }
+  .links a {
+    font-size: 0.6rem;
+    width: 82px;
+    height: 26px;
+    line-height: 28px;
+    margin: 3px;
+  }
+  .links a:hover {
+    transform: scale(1.07);
+    color: #9e9e9e;
+  }
+  .color-change-container {
+    top: 240px !important;
+  }
+}
+
+/* Color button css */
+.color-button {
+  position: absolute;
+  right: 0;
+  top: 100;
+}
+.box-blue {
+  width: 20px;
+  height: 20px;
+  background-color: #a6bb8d;
+}
+.box-brown {
+  width: 20px;
+  height: 20px;
+  background-color: #7db9b6;
+}
+.box-orange {
+  width: 20px;
+  height: 20px;
+  background-color: #c7bca1;
+}
+.box-purple {
+  width: 20px;
+  height: 20px;
+  background-color: #ecccb2;
+}
+.color-box:hover {
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+.color-change-container {
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+.color-change-container button {
+  border-radius: 0 10px 10px 0;
+}
+.color-change-container button:hover {
+  opacity: 0.8;
+}
+
+/* About me */
+.about-me h2 {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.about-me i {
+  font-size: 1.5rem;
+}
+.about-me-text {
+  text-align: justify;
+  padding: 5px;
+}
+#about-me-info-container {
+  min-height: 200px;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  margin-left: auto;
+}
+#about-me-info-container:hover {
+  box-shadow: inset 0px 0px 0px 10px #d5d0d0;
+  border-radius: 105px 0 105px 0;
+}
+
+#about-me-info-container img {
+  float: left;
+  margin: 0 15px 15px 0;
+  border-radius: 20px;
+  width: 190px;
+}
+#border-left {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#border-right {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+}
+.progress {
+  height: 1.5rem !important;
+  margin-bottom: 15px;
+  padding: 0 !important;
+  background-color: gray;
+  border-radius: 10px;
+}
+.progress:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px #00bcd48c;
+}
+.progress-bar {
+  border-radius: 10px;
+  text-align: start;
+  padding-left: 10px;
+  font-weight: 700;
+}
+/* Aboue Me Responsıve */
+@media only screen and (max-width: 768px) {
+  #about-me-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Footer css */
+.footer {
+  height: 70px;
+  width: 100%;
+  margin-top: 17%;
+}
+.social-media {
+  font-size: 0.7rem;
+  width: 60%;
+  height: 40px;
+  border-right: 2px solid white;
+  padding-left: 2%;
+}
+.social-media i {
+  font-size: 0.9rem;
+}
+.copyright {
+  font-size: 0.7rem;
+  margin: 0;
+}
+.social-m-link:hover {
+  color: gray !important;
+}
+
+/* footer responsive */
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 200px;
+    justify-content: center !important;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .social-media {
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 120px;
+    border-right: none;
+    border-bottom: 2px solid white;
+  }
+}
+
+/* Skill$Hobbies responsive */
+.skill-and-name:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .skills-container h2 {
+    text-align: center;
+  }
+  .hobbies-container h2 {
+    text-align: center;
+  }
+  .progress-container {
+    width: 50%;
+  }
+}
+
+/* Edıcations */
+.fa-thumbtack {
+  top: -14px;
+  left: 13px;
+  rotate: 27deg;
+  z-index: 9999;
+  color: #ffc107;
+}
+.fa-building {
+  padding-left: 0.3rem;
+}
+.education .card {
+  background-color: #adacac24 !important;
+}
+.education .card:hover {
+  background-color: #607d8b8c !important;
+  color: white;
+}
+.education-card:hover > .fa-thumbtack {
+  color: #e91e63 !important;
+}
+.education .date {
+  border-radius: 10px;
+  color: white;
+  max-width: fit-content;
+}
+.education .card-body {
+  min-height: 250px;
+}
+
+/* Work Experience */
+.work-experience .card-body {
+  min-height: 180px;
+}
+.work-experience .card {
+  background-color: #adacac24 !important;
+}
+.work-experience-card .card:hover {
+  background-color: #607d8b8c !important;
+  color: white;
+}
+.work-experience-card:hover > .fa-thumbtack {
+  color: #e91e63 !important;
+}
+.work-experience .date {
+  border-radius: 10px;
+  color: white;
+  max-width: fit-content;
+}
