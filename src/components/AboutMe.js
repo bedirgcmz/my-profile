@@ -48,12 +48,20 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
           alt=""
         />
         <p className={`${color} about-me-text`}>
-          <b>I am an ambitious Developer with a passion for software and technology.</b> I have
+          {/* <b>I am an ambitious Developer with a passion for software and technology.</b> I have
           completed a 11-month <b>"Full Stack Web Development"</b> course. Through focused study I
           have reached the level of Junior Full Stack Web Programmer. A few months ago, I developed
           web-based applications using my newly acquired skills and I can develop in front-end and
           back-end disciplines. I am very keen to learn new technologies and especially artificial
-          intelligence. <em>I count myself as very flexible and agile in teamwork.</em>
+          intelligence. <em>I count myself as very flexible and agile in teamwork.</em> */}
+          <b>I am an ambitious Developer with a passion for software and technology. </b>I have been
+          developing myself in the IT field for 2 years. I continued to learn on many platforms and
+          learned different software languages. I also completed the
+          <b>"Full Stack Web Development"</b> course on a course. Through focused work, I have
+          reached the Junior Full Stack Web Programmer level. A few years ago, I developed web-based
+          applications with my newly acquired skills and I can develop in front-end and back-end
+          disciplines. I am very eager to learn new technologies and especially artificial
+          intelligence. <em>I think I am very flexible and agile in teamwork.</em>
         </p>
       </div>
       <hr className="w-100" />
@@ -63,28 +71,15 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         </h2>
         <div className="progress">
           <div
-            className="progress-bar kurdish"
+            className="progress-bar english"
             role="progressbar"
-            aria-label="Success example"
-            style={{ width: "100%" }}
-            aria-valuenow="25"
+            aria-label="Danger example"
+            style={{ width: "30%" }}
+            aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            Kurdis
-          </div>
-        </div>
-        <div className="progress">
-          <div
-            className="progress-bar turkish"
-            role="progressbar"
-            aria-label="Info example"
-            style={{ width: "100%" }}
-            aria-valuenow="50"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            Turkish
+            English
           </div>
         </div>
         <div className="progress">
@@ -102,15 +97,28 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
         </div>
         <div className="progress">
           <div
-            className="progress-bar english"
+            className="progress-bar turkish"
             role="progressbar"
-            aria-label="Danger example"
-            style={{ width: "30%" }}
-            aria-valuenow="100"
+            aria-label="Info example"
+            style={{ width: "100%" }}
+            aria-valuenow="50"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            English
+            Turkish
+          </div>
+        </div>
+        <div className="progress">
+          <div
+            className="progress-bar kurdish"
+            role="progressbar"
+            aria-label="Success example"
+            style={{ width: "100%" }}
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            Kurdis
           </div>
         </div>
       </div>
@@ -119,9 +127,3 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
 };
 
 export default AboutMe;
-
-/* 
-intial={{ width: 0 }}
-animate={{ width: "100%" }}
-exit={{ x: window.innerWidth, transition: { duration: 1 } }}
-*/
