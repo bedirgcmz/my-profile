@@ -1,7 +1,19 @@
+.my-project-info-hr {
+  height: 5px !important;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
 .gitub-link {
   text-decoration: none;
-  padding: 5px 12px;
+  padding: 3px 12px;
   color: #0275d8;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #0275d8;
+  border-radius: 10px;
+  text-align: center;
 }
 .card-link {
   text-decoration: none;
@@ -9,8 +21,13 @@
   border-radius: 10px;
   padding: 3px 12px;
   color: #0275d8;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
 }
-.card-link:hover {
+.card-link:hover,
+.gitub-link:hover {
   background-color: #0275d8;
   color: white;
 }

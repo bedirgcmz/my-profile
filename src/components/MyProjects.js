@@ -68,6 +68,14 @@ const MyProjects = ({ bacgroundOpc, color }) => {
       className="skills-hobbies-container w-75 m-auto mt-4"
     >
       <div className="my-projects-container">
+        <div className="projects-info-text">
+          <p className={`${color} mb-4`}>
+            I love to write code. I write some small projects as a hobby. This is so fun. Below are
+            some small applications I made while on the way to become a web developer. Let's examine
+            them.
+          </p>
+          <hr className={`${color} my-project-info-hr`} />
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           {myProjects.map((project) => (
             <div class="col">
@@ -76,11 +84,11 @@ const MyProjects = ({ bacgroundOpc, color }) => {
                 <div class="card-body">
                   <h5 class="card-title">{project.project_name}</h5>
                   <p class="card-text">{project.info}</p>
-                  <a className="gitub-link" href={project.github_link}>
-                    Click to review the codes on Github
+                  <a className="gitub-link" href={project.github_link} target="_blank">
+                    Github Link <i class="fa-brands fa-github ms-2"></i>
                   </a>
                   <a className="card-link" href={project.link} target="_blank">
-                    Go Project
+                    Go Project <i class="fa-solid fa-eye ms-2"></i>
                   </a>
                 </div>
               </div>
