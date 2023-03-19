@@ -22,6 +22,12 @@ const MyProjects = ({ bacgroundOpc, color }) => {
       info: "In this react application, you are given some money. When you shop, your money is running low. You can add and delete products in your shopping basket. You can see your basket with the button on the right. Also, if you want, empty the basket completely with the button on the left. Click the link and try",
       link: "https://bedirgcmz-spend-money.netlify.app/",
     },
+    {
+      project_name: "Weather Condition",
+      image: "https://r.resimlink.com/XCQk5VZtr1M.jpg",
+      info: "You have important work to do today and you are wondering about the weather. You don't need to worry. With this application, you can instantly find out the weather forecast. All you have to do is type in your city and find it. Click the link and try",
+      link: "https://bedirgcmz-weather-condition.netlify.app/",
+    },
   ];
   const variants2 = {
     fadeIn: {
