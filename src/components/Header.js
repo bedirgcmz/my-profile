@@ -26,6 +26,9 @@ const Header = ({ bacgroundOpc, borderLinkOpc, color, borderBottom, bacgroundDar
         <Link className={`${borderLinkOpc} ${color}`} to="/">
           About Me
         </Link>
+        <Link className={`${borderLinkOpc} ${color}`} to="/my-projects">
+          My Projects
+        </Link>
         <Link className={`${borderLinkOpc} ${color}`} to="/skills-hobbies">
           Skills & Hobbies
         </Link>

@@ -5,6 +5,7 @@ import Education from "./Education";
 import { AnimatePresence } from "framer-motion";
 import WorkExperiance from "./WorkExperiance";
 import SkillsHobbies from "./SkillsHobbies";
+import MyProjects from "./MyProjects";
 
 const AnimationRoutes = ({
   bacgroundOpc,
@@ -45,6 +46,11 @@ const AnimationRoutes = ({
           exact
           path="/skills-hobbies"
           element={<SkillsHobbies bacgroundOpc={bacgroundOpc} color={color} />}
+        />
+        <Route
+          exact
+          path="/my-projects"
+          element={<MyProjects bacgroundOpc={bacgroundOpc} color={color} />}
         />
       </Routes>
     </AnimatePresence>
