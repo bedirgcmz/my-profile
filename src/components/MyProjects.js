@@ -2,8 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./MyProjects.css";
 
-const MyProjects = ({ bacgroundOpc, color }) => {
+const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
   const myProjects = [
+    {
+      project_name: "English Irregular Verbs",
+      image: "https://r.resimlink.com/_hB8PT.jpg",
+      info: "Most people in the world want to learn English. And it works for it. Especially in Turkey, most people learn English through their own studies. One of the most difficult subjects when learning English is irregular verbs. You can learn and exercise irregular elephants with this simple app. Click the link and try",
+      link: "https://bedirgcmz-en-irregular-verbs.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/English-Irreguler-Verbs",
+    },
     {
       project_name: "Simple Shopping",
       image: "https://r.resimlink.com/vLuaR6ltIyA0.jpg",
@@ -84,10 +91,18 @@ const MyProjects = ({ bacgroundOpc, color }) => {
                 <div class="card-body">
                   <h5 class="card-title">{project.project_name}</h5>
                   <p class="card-text">{project.info}</p>
-                  <a className="gitub-link" href={project.github_link} target="_blank">
+                  <a
+                    className={`gitub-link ${borderLinkOpc} ${color}`}
+                    href={project.github_link}
+                    target="_blank"
+                  >
                     Github Link <i class="fa-brands fa-github ms-2"></i>
                   </a>
-                  <a className="card-link" href={project.link} target="_blank">
+                  <a
+                    className={`card-link ${borderLinkOpc} ${color}`}
+                    href={project.link}
+                    target="_blank"
+                  >
                     Go Project <i class="fa-solid fa-eye ms-2"></i>
                   </a>
                 </div>

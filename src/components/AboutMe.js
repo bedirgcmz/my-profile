@@ -56,7 +56,7 @@ const AboutMe = ({ borderTop, borderBottom, borderLeft, borderRight, color }) =>
           intelligence. <em>I count myself as very flexible and agile in teamwork.</em> */}
           <b>I am an ambitious Developer with a passion for software and technology. </b>I have been
           developing myself in the IT field for 2 years. I continued to learn on many platforms and
-          learned different software languages. I also completed the
+          learned different software languages. I also completed the{" "}
           <b>"Full Stack Web Development"</b> course on a course. Through focused work, I have
           reached the Junior Full Stack Web Programmer level. A few years ago, I developed web-based
           applications with my newly acquired skills and I can develop in front-end and back-end

@@ -83,6 +83,7 @@ export default function App() {
           borderLeft={borderLeft}
           borderRight={borderRight}
           color={color}
+          borderLinkOpc={borderLinkOpc}
         />
       </Router>
       <div className="color-change-container">

@@ -14,6 +14,7 @@ const AnimationRoutes = ({
   borderLeft,
   borderRight,
   color,
+  borderLinkOpc,
 }) => {
   const location = useLocation();
   return (
@@ -50,7 +51,9 @@ const AnimationRoutes = ({
         <Route
           exact
           path="/my-projects"
-          element={<MyProjects bacgroundOpc={bacgroundOpc} color={color} />}
+          element={
+            <MyProjects bacgroundOpc={bacgroundOpc} color={color} borderLinkOpc={borderLinkOpc} />
+          }
         />
       </Routes>
     </AnimatePresence>

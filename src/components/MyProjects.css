@@ -5,22 +5,25 @@
   margin-bottom: 2rem;
   border-radius: 5px;
 }
+.my-projects-container .card-text {
+  text-align: justify;
+}
 .gitub-link {
   text-decoration: none;
   padding: 3px 12px;
-  color: #0275d8;
+  /* color: #0275d8; */
   display: inline-block;
   width: 100%;
-  border: 1px solid #0275d8;
+  /* border: 1px solid #0275d8; */
   border-radius: 10px;
   text-align: center;
 }
 .card-link {
   text-decoration: none;
-  border: 1px solid #0275d8;
+  /* border: 1px solid #0275d8; */
   border-radius: 10px;
   padding: 3px 12px;
-  color: #0275d8;
+  /* color: #0275d8; */
   width: 100%;
   display: inline-block;
   margin-top: 10px;
@@ -38,4 +41,7 @@
   font-size: 1.5rem;
   border-radius: 20px;
   color: white;
+}
+.projects-info-text p {
+  text-align: justify;
 }
