@@ -39,6 +39,13 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       link: "https://bedirgcmz-weather-condition.netlify.app/",
       github_link: "https://github.com/bedirgcmz/weather_condition",
     },
+    {
+      project_name: "Journey (For Swetzerland)",
+      image: "https://r.resimlink.com/yrNKB-b.jpg",
+      info: "Traveling is very nice. But sometimes the journey can be tough. It is important to know the train times in order to find our way on travels and to save time. If you are visiting Switzerland, type in the names of two cities to see up-to-date travel information with this application. Click the link and try",
+      link: "https://bedirgcmz-journey-swetzerland.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/journey-swetzerland",
+    },
   ];
   const variants2 = {
     fadeIn: {
