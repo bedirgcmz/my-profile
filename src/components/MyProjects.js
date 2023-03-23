@@ -12,11 +12,25 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       github_link: "https://github.com/bedirgcmz/English-Irreguler-Verbs",
     },
     {
+      project_name: "Chinese Horoscope",
+      image: "https://r.resimlink.com/x38E0T1S.jpg",
+      info: "Horoscopes are important to everyone. People want to know what the zodiac sign says. Chinese zodiac signs are especially interesting. It is possible to see animals and other elements that define you according to your birth year. Click the link and try",
+      link: "https://bedirgcmz-chinese-horoscope.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/chinese-horoscope-calendar",
+    },
+    {
       project_name: "Simple Shopping",
       image: "https://r.resimlink.com/vLuaR6ltIyA0.jpg",
       info: "This app works. You must add the products you own first. Type the product name and click the ADD button. Now the product appears on the side. Use the + button to send the product to the other list. Or click the >> / << buttons and move all the products you have added. Click the link and try",
       link: "https://bedirgcmz-simple-shopping.netlify.app/",
       github_link: "https://github.com/bedirgcmz/my_exercises/tree/master/simple_shopping",
+    },
+    {
+      project_name: "Soup Rastaurant",
+      image: "https://r.resimlink.com/FWRQKgAm5.jpg",
+      info: "Master Kerem has a restaurant. He hired a farm to make soup. He wants to instantly track how much soup she can make. That's why we wrote an app for it. Note that the master Kerem does not use pig's feet. Click the link and try",
+      link: "https://bedirgcmz-soup-restaurant.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/soup-restaurant",
     },
     {
       project_name: "To Do List",
@@ -45,6 +59,13 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       info: "Traveling is very nice. But sometimes the journey can be tough. It is important to know the train times in order to find our way on travels and to save time. If you are visiting Switzerland, type in the names of two cities to see up-to-date travel information with this application. Click the link and try",
       link: "https://bedirgcmz-journey-swetzerland.netlify.app/",
       github_link: "https://github.com/bedirgcmz/journey-swetzerland",
+    },
+    {
+      project_name: "Css - Mixed",
+      image: "https://r.resimlink.com/BXvaE58fNA.jpg",
+      info: "CSS is a really fun programming language. Writing css feels good. I have done many css projects in my software learning process. I would love to work on big projects to write more. No images were used in this project. All shapes are designed with css codes. Let's take a look.",
+      link: "https://bedirgcmz-css-mixed.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/css-week6-img",
     },
   ];
   const variants2 = {
