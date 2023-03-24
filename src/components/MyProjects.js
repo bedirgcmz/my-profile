@@ -19,6 +19,13 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       github_link: "https://github.com/bedirgcmz/chinese-horoscope-calendar",
     },
     {
+      project_name: "Multiplication Table Game",
+      image: "https://r.resimlink.com/6s3PO.jpg",
+      info: "In this application, you can play the multiplication table game with music. There is one thing you must remember. You have 10 seconds for each question. Even if you don't answer the question, a new question comes up. You can add your name with the form. You can save your score at the end of the game. This application stores data on localstorage. Click the link and try",
+      link: "https://bedirgcmz-home-schoolng.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/home-schooling",
+    },
+    {
       project_name: "Simple Shopping",
       image: "https://r.resimlink.com/vLuaR6ltIyA0.jpg",
       info: "This app works. You must add the products you own first. Type the product name and click the ADD button. Now the product appears on the side. Use the + button to send the product to the other list. Or click the >> / << buttons and move all the products you have added. Click the link and try",
