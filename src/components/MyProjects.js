@@ -68,6 +68,13 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       github_link: "https://github.com/bedirgcmz/journey-swetzerland",
     },
     {
+      project_name: "School Report",
+      image: "https://r.resimlink.com/JNy3uv0f1c.jpg",
+      info: "This application is designed for a school. You can see a separate list for each class. The individual grades of the students appear in the class lists. On the home page, class averages are shown with chart bars. Click the link and try",
+      link: "https://bedirgcmz-school-report.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/school-report",
+    },
+    {
       project_name: "Css - Mixed",
       image: "https://r.resimlink.com/BXvaE58fNA.jpg",
       info: "CSS is a really fun programming language. Writing css feels good. I have done many css projects in my software learning process. I would love to work on big projects to write more. No images were used in this project. All shapes are designed with css codes. Let's take a look.",
