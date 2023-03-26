@@ -6,7 +6,8 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
   const myProjects = [
     {
       project_name: "English Irregular Verbs",
-      image: "https://r.resimlink.com/_hB8PT.jpg",
+      // image: "https://r.resimlink.com/_hB8PT.jpg",
+      image: "https://r.resimlink.com/sOIF2mxZB.gif",
       info: "Most people in the world want to learn English. And it works for it. Especially in Turkey, most people learn English through their own studies. One of the most difficult subjects when learning English is irregular verbs. You can learn and exercise irregular elephants with this simple app. Click the link and try",
       link: "https://bedirgcmz-en-irregular-verbs.netlify.app/",
       github_link: "https://github.com/bedirgcmz/English-Irreguler-Verbs",
@@ -34,20 +35,23 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
     },
     {
       project_name: "Soup Rastaurant",
-      image: "https://r.resimlink.com/FWRQKgAm5.jpg",
+      // image: "https://r.resimlink.com/FWRQKgAm5.jpg",
+      image: "https://r.resimlink.com/rci4FfAWMRg0.gif",
       info: "Master Kerem has a restaurant. He hired a farm to make soup. He wants to instantly track how much soup she can make. That's why we wrote an app for it. Note that the master Kerem does not use pig's feet. Click the link and try",
       link: "https://bedirgcmz-soup-restaurant.netlify.app/",
       github_link: "https://github.com/bedirgcmz/soup-restaurant",
     },
     {
       project_name: "To Do List",
-      image: "https://r.resimlink.com/Ioxhg0Av.jpg",
+      // image: "https://r.resimlink.com/Ioxhg0Av.jpg",
+      image: "https://r.resimlink.com/WlOgt.gif",
       info: "Maybe you have a lot of work to do and you forget about them. Here is an app to help you. Create a to-do list and delete it when you complete the task. If the missions are all finished, you can delete them all. I'm sure this will be of great help to you. Click the link and try",
       link: "https://bedirgcmz-todo-list.netlify.app/",
       github_link: "https://github.com/bedirgcmz/my_exercises/tree/master/to_do_list",
     },
     {
       project_name: "Spend Money",
+      // image: "https://r.resimlink.com/se1tNaF_2Wb.jpg",
       image: "https://r.resimlink.com/se1tNaF_2Wb.jpg",
       info: "In this react application, you are given some money. When you shop, your money is running low. You can add and delete products in your shopping basket. You can see your basket with the button on the right. Also, if you want, empty the basket completely with the button on the left. Click the link and try",
       link: "https://bedirgcmz-spend-money.netlify.app/",
@@ -55,7 +59,8 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
     },
     {
       project_name: "Weather Condition",
-      image: "https://r.resimlink.com/XCQk5VZtr1M.jpg",
+      // image: "https://r.resimlink.com/XCQk5VZtr1M.jpg",
+      image: "https://r.resimlink.com/wRg9KS.gif",
       info: "You have important work to do today and you are wondering about the weather. You don't need to worry. With this application, you can instantly find out the weather forecast. All you have to do is type in your city and find it. Click the link and try",
       link: "https://bedirgcmz-weather-condition.netlify.app/",
       github_link: "https://github.com/bedirgcmz/weather_condition",
@@ -69,7 +74,8 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
     },
     {
       project_name: "School Report",
-      image: "https://r.resimlink.com/JNy3uv0f1c.jpg",
+      // image: "https://r.resimlink.com/JNy3uv0f1c.jpg",
+      image: "https://r.resimlink.com/kTRlKf.gif",
       info: "This application is designed for a school. You can see a separate list for each class. The individual grades of the students appear in the class lists. On the home page, class averages are shown with chart bars. Click the link and try",
       link: "https://bedirgcmz-school-report.netlify.app/",
       github_link: "https://github.com/bedirgcmz/school-report",
