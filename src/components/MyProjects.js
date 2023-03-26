@@ -44,7 +44,7 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
     {
       project_name: "To Do List",
       // image: "https://r.resimlink.com/Ioxhg0Av.jpg",
-      image: "https://r.resimlink.com/WlOgt.gif",
+      image: "https://r.resimlink.com/ho4PAB21.gif",
       info: "Maybe you have a lot of work to do and you forget about them. Here is an app to help you. Create a to-do list and delete it when you complete the task. If the missions are all finished, you can delete them all. I'm sure this will be of great help to you. Click the link and try",
       link: "https://bedirgcmz-todo-list.netlify.app/",
       github_link: "https://github.com/bedirgcmz/my_exercises/tree/master/to_do_list",
