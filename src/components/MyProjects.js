@@ -132,8 +132,8 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
           <hr className={`${color} my-project-info-hr`} />
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          {myProjects.map((project) => (
-            <div class="col">
+          {myProjects.map((project, index) => (
+            <div class="col" key={index}>
               <div class="card">
                 <img src={project.image} class="card-img-top" alt="..." />
                 <div class="card-body">

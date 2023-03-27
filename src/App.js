@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import AnimationRoutes from "./components/AnimationRoutes";
 import "./App.css";
 import Footer from "./components/Footer";
+import countapi from "countapi-js";
 
+// function websiteVisits(response) {
+//   console.log("calisti");
+//   document.querySelector("#visits").textContent = response.value;
+// }
 export default function App() {
   const [colorButton, setColorButton] = useState(true);
   const [bacgroundOpc, setBackgroundOpc] = useState("bg-opc-dark-brown");
@@ -15,6 +20,21 @@ export default function App() {
   const [borderTop, setBorderTop] = useState("br-top-dark-brown");
   const [borderLeft, setBorderLeft] = useState("br-left-dark-brown");
   const [borderRight, setBorderRight] = useState("br-right-dark-brown");
+  // websiteVisits();
+
+  const [visitorNumber, setVisitorNumber] = useState("");
+
+  useEffect(() => {
+    // countapi.visits("global").then((result) => {
+    //   console.log(result.value);
+    //   setVisitorNumber(result.value - 123809);
+    // });
+
+    countapi.visits().then((result) => {
+      console.log(result.value);
+      setVisitorNumber(result.value - 3823662);
+    });
+  }, []);
 
   const getColor = () => {
     if (colorButton) {
@@ -111,6 +131,12 @@ export default function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="visitor" className={`${bacgroundOpc}`}>
+        <p id="visitor-text" className="mb-0">
+          Views Counter
+        </p>
+        <span id="visitor-number">{visitorNumber && visitorNumber}</span>
       </div>
       <Footer color={color} bacgroundDark={bacgroundDark} />
     </div>

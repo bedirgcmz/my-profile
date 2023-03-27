@@ -306,3 +306,30 @@
   color: white;
   max-width: fit-content;
 }
+
+/**Visitor number**/
+#visitor {
+  color: white;
+  width: 77px;
+  height: 36px;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  font-size: 10px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  padding: 4px;
+  font-weight: bolder;
+}
+#visitor-text {
+  /* color: #e91e63; */
+}
+#visitor-number {
+  /* color: #e91e63; */
+}
+@media only screen and (max-width: 768px) {
+  #visitor {
+    position: absolute;
+    top: 240px;
+  }
+}

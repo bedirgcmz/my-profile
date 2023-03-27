@@ -65,7 +65,7 @@ const WorkExperiance = ({ bacgroundOpc, color }) => {
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i class="fa-solid fa-school pe-3"></i>Primary School Teaching
+              <i className="fa-solid fa-school pe-3"></i>Primary School Teaching
             </h5>
             <p className="card-text">
               Classroom management, lecture, student follow-up, homework follow-up, teaching
@@ -83,7 +83,7 @@ const WorkExperiance = ({ bacgroundOpc, color }) => {
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i class="fa-solid fa-school pe-3"></i>Primary School Teaching
+              <i className="fa-solid fa-school pe-3"></i>Primary School Teaching
             </h5>
             <p className="card-text">
               Classroom management, lecture, student follow-up, homework follow-up, teaching
