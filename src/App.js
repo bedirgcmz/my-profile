@@ -32,7 +32,7 @@ export default function App() {
 
     countapi.visits().then((result) => {
       console.log(result.value);
-      setVisitorNumber(result.value - 3823662);
+      setVisitorNumber(result.value);
     });
   }, []);
 
