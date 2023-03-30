@@ -73,6 +73,13 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       github_link: "https://github.com/bedirgcmz/journey-swetzerland",
     },
     {
+      project_name: "Where is Johan",
+      image: "https://r.resimlink.com/UGPn9QB4.gif",
+      info: "Are you good at guessing? Here is a guessing game. Johan left the house and took a train. You have 4 rights to know which wagon you are in. If your guess is wrong, follow the clue given to you. Click the link and try",
+      link: "https://bedirgcmz-where-is-johan.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/where-is-johan",
+    },
+    {
       project_name: "School Report",
       // image: "https://r.resimlink.com/JNy3uv0f1c.jpg",
       image: "https://r.resimlink.com/kTRlKf.gif",
