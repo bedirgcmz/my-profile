@@ -80,6 +80,13 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       github_link: "https://github.com/bedirgcmz/where-is-johan",
     },
     {
+      project_name: "Battery Simulation",
+      image: "https://r.resimlink.com/HsfnCT.gif",
+      info: "A battery charging and discharging simulation. Colors change according to battery level. As a bonus, a picture appears depending on the state of the battery. Click the link and try",
+      link: "https://bedirgcmz-battery-simulation.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/battery-simulation",
+    },
+    {
       project_name: "School Report",
       // image: "https://r.resimlink.com/JNy3uv0f1c.jpg",
       image: "https://r.resimlink.com/kTRlKf.gif",
