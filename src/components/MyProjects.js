@@ -34,12 +34,11 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       github_link: "https://github.com/bedirgcmz/my_exercises/tree/master/simple_shopping",
     },
     {
-      project_name: "Soup Rastaurant",
-      // image: "https://r.resimlink.com/FWRQKgAm5.jpg",
-      image: "https://r.resimlink.com/rci4FfAWMRg0.gif",
-      info: "Master Kerem has a restaurant. He hired a farm to make soup. He wants to instantly track how much soup she can make. That's why we wrote an app for it. Note that the master Kerem does not use pig's feet. Click the link and try",
-      link: "https://bedirgcmz-soup-restaurant.netlify.app/",
-      github_link: "https://github.com/bedirgcmz/soup-restaurant",
+      project_name: "School Students",
+      image: "https://r.resimlink.com/LkbQn.gif",
+      info: "I really like the SweetAlert package. I thought of a student table for a school. And while adding and deleting students, I responded with swwetalert. These are so sweet. Click the link and try",
+      link: "https://bedirgcmz-school-students.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/school-students",
     },
     {
       project_name: "To Do List",
@@ -48,6 +47,14 @@ const MyProjects = ({ bacgroundOpc, color, borderLinkOpc }) => {
       info: "Maybe you have a lot of work to do and you forget about them. Here is an app to help you. Create a to-do list and delete it when you complete the task. If the missions are all finished, you can delete them all. I'm sure this will be of great help to you. Click the link and try",
       link: "https://bedirgcmz-todo-list.netlify.app/",
       github_link: "https://github.com/bedirgcmz/my_exercises/tree/master/to_do_list",
+    },
+    {
+      project_name: "Soup Rastaurant",
+      // image: "https://r.resimlink.com/FWRQKgAm5.jpg",
+      image: "https://r.resimlink.com/rci4FfAWMRg0.gif",
+      info: "Master Kerem has a restaurant. He hired a farm to make soup. He wants to instantly track how much soup she can make. That's why we wrote an app for it. Note that the master Kerem does not use pig's feet. Click the link and try",
+      link: "https://bedirgcmz-soup-restaurant.netlify.app/",
+      github_link: "https://github.com/bedirgcmz/soup-restaurant",
     },
     {
       project_name: "Spend Money",
