@@ -5,6 +5,8 @@ import AnimationRoutes from "./components/AnimationRoutes";
 import "./App.css";
 import Footer from "./components/Footer";
 import countapi from "countapi-js";
+import cv from "../src/file/cv.pdf";
+import PdfCv from "./components/PdfCv";
 
 // function websiteVisits(response) {
 //   console.log("calisti");
@@ -25,11 +27,6 @@ export default function App() {
   const [visitorNumber, setVisitorNumber] = useState("");
 
   useEffect(() => {
-    // countapi.visits("global").then((result) => {
-    //   console.log(result.value);
-    //   setVisitorNumber(result.value - 123809);
-    // });
-
     countapi.visits().then((result) => {
       console.log(result.value);
       setVisitorNumber(result.value);
@@ -138,6 +135,15 @@ export default function App() {
         </p>
         <span id="visitor-number">{visitorNumber && visitorNumber}</span>
       </div>
+      {/* <div id="download">
+        <a href={cv} download="Cv">
+          CV Download
+        </a>
+        <a href={cv} target="_blank">
+          Show CV
+        </a>
+      </div>
+      <PdfCv /> */}
       <Footer color={color} bacgroundDark={bacgroundDark} />
     </div>
   );

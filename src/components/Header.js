@@ -1,10 +1,57 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import profileImg from "./image/profile.jpg";
 
 const Header = ({ bacgroundOpc, borderLinkOpc, color, borderBottom, bacgroundDark }) => {
+  const [locationAboutMe, setLocationAboutMe] = useState("d-inline");
+  const [locationMyProject, setLocationMyProject] = useState("d-none");
+  const [locationSkills, setLocationSkills] = useState("d-none");
+  const [locationWorkExp, setLocationWorkExp] = useState("d-none");
+  const [locationEdu, setLocationEdu] = useState("d-none");
   // ana div clasindan alindi ${borderBottom} ${bacgroundOpc}
   // link claslarindan alindi ${bacgroundDark}
+
+  const showLocAbout = () => {
+    setLocationAboutMe("d-inline");
+    setLocationMyProject("d-none");
+    setLocationSkills("d-none");
+    setLocationWorkExp("d-none");
+    setLocationEdu("d-none");
+  };
+  const showLocProjct = () => {
+    setLocationAboutMe("d-none");
+    setLocationMyProject("d-inline");
+    setLocationSkills("d-none");
+    setLocationWorkExp("d-none");
+    setLocationEdu("d-none");
+  };
+  const showLocSkills = () => {
+    setLocationAboutMe("d-none");
+    setLocationMyProject("d-none");
+    setLocationSkills("d-inline");
+    setLocationWorkExp("d-none");
+    setLocationEdu("d-none");
+  };
+  const showLocWork = () => {
+    setLocationAboutMe("d-none");
+    setLocationMyProject("d-none");
+    setLocationSkills("d-none");
+    setLocationWorkExp("d-inline");
+    setLocationEdu("d-none");
+  };
+  const showLocEdu = () => {
+    setLocationAboutMe("d-none");
+    setLocationMyProject("d-none");
+    setLocationSkills("d-none");
+    setLocationWorkExp("d-none");
+    setLocationEdu("d-inline");
+  };
+  // const showLocation = (e) => {
+  //   const selectedLink = e.target.querySelector("i");
+  //   selectedLink.
+  // };
+
   return (
     <div className={`  ${color} header d-flex flex-column justify-content-between px-5 w-100`}>
       <div className="img-info-slogan  d-flex justify-content-around align-items-center">
@@ -23,20 +70,37 @@ const Header = ({ bacgroundOpc, borderLinkOpc, color, borderBottom, bacgroundDar
         <p className="slogan">If you work hard, you will succeed!</p>
       </div>
       <div className="links d-flex justify-content-end align-items-center">
-        <Link className={`${borderLinkOpc} ${color}`} to="/">
-          About Me
+        <Link className={`${borderLinkOpc} ${color}`} to="/" onClick={(e) => showLocAbout(e)}>
+          About Me <i className={`fa-solid fa-location-dot ms-1 ${locationAboutMe}`}></i>
         </Link>
-        <Link className={`${borderLinkOpc} ${color}`} to="/my-projects">
-          My Projects
+        <Link
+          className={`${borderLinkOpc} ${color}`}
+          to="/my-projects"
+          onClick={(e) => showLocProjct(e)}
+        >
+          My Projects <i className={`fa-solid fa-location-dot ms-1 ${locationMyProject}`}></i>
         </Link>
-        <Link className={`${borderLinkOpc} ${color}`} to="/skills-hobbies">
-          Skills & Hobbies
+        <Link
+          activeClassName="is-active"
+          className={`${borderLinkOpc} ${color}`}
+          to="/skills-hobbies"
+          onClick={(e) => showLocSkills(e)}
+        >
+          Skills & Hobbies <i className={`fa-solid fa-location-dot ms-1 ${locationSkills}`}></i>
         </Link>
-        <Link className={`${borderLinkOpc} ${color}`} to="/education">
-          Education{" "}
+        <Link
+          className={`${borderLinkOpc} ${color}`}
+          to="/education"
+          onClick={(e) => showLocEdu(e)}
+        >
+          Education <i className={`fa-solid fa-location-dot ms-1 ${locationEdu}`}></i>
         </Link>
-        <Link className={`${borderLinkOpc} ${color}`} to="/work-experience">
-          Work Experience
+        <Link
+          className={`${borderLinkOpc} ${color}`}
+          to="/work-experience"
+          onClick={(e) => showLocWork(e)}
+        >
+          Work Experience <i className={`fa-solid fa-location-dot ms-1 ${locationWorkExp}`}></i>
         </Link>
       </div>
     </div>
