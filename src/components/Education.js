@@ -62,11 +62,11 @@ const Education = ({ bacgroundOpc, color }) => {
         <i className="fa-solid fa-thumbtack fs-4 position-absolute"></i>
         <div className="card">
           <h5 className="card-header">
-            <i className="fa-solid fa-building pe-3"></i> Kariyer Dunyasi
+            <i className="fa-solid fa-building pe-3"></i> Career World
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i className="fa-solid fa-people-group pe-3"></i>Student Coaching
+              <i className="fa-solid fa-person-walking-arrow-right pe-3"></i>Student Coaching
             </h5>
             <p className="card-text">
               Online education, Distance course tracking, Online exams and international
@@ -103,13 +103,12 @@ const Education = ({ bacgroundOpc, color }) => {
           </h5>
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">
-              <i className="fa-solid fa-person-chalkboard pe-3"></i>Primary School Graduate
-              Education
+              <i className="fa-solid fa-person-chalkboard pe-3"></i>Primary School Teacher
             </h5>
             <p className="card-text">
               I have successfully completed my 4-year undergraduate education.
             </p>
-            <span className={`${bacgroundOpc} date py-1 px-2`}>15.09.2014 - 23.07.2016</span>
+            <span className={`${bacgroundOpc} date py-1 px-2`}>15.09.2007 - 16.06.2011</span>
           </div>
         </div>
       </div>
