@@ -9,8 +9,6 @@ const Header = ({ bacgroundOpc, borderLinkOpc, color, borderBottom, bacgroundDar
   const [locationSkills, setLocationSkills] = useState("d-none");
   const [locationWorkExp, setLocationWorkExp] = useState("d-none");
   const [locationEdu, setLocationEdu] = useState("d-none");
-  // ana div clasindan alindi ${borderBottom} ${bacgroundOpc}
-  // link claslarindan alindi ${bacgroundDark}
 
   const showLocAbout = () => {
     setLocationAboutMe("d-inline");
@@ -47,10 +45,6 @@ const Header = ({ bacgroundOpc, borderLinkOpc, color, borderBottom, bacgroundDar
     setLocationWorkExp("d-none");
     setLocationEdu("d-inline");
   };
-  // const showLocation = (e) => {
-  //   const selectedLink = e.target.querySelector("i");
-  //   selectedLink.
-  // };
 
   return (
     <div className={`  ${color} header d-flex flex-column justify-content-between px-5 w-100`}>

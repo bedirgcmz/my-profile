@@ -5,13 +5,9 @@ import AnimationRoutes from "./components/AnimationRoutes";
 import "./App.css";
 import Footer from "./components/Footer";
 import countapi from "countapi-js";
-import cv from "../src/file/cv.pdf";
-import PdfCv from "./components/PdfCv";
+// import cv from "../src/file/cv.pdf";
+// import PdfCv from "./components/PdfCv";
 
-// function websiteVisits(response) {
-//   console.log("calisti");
-//   document.querySelector("#visits").textContent = response.value;
-// }
 export default function App() {
   const [colorButton, setColorButton] = useState(true);
   const [bacgroundOpc, setBackgroundOpc] = useState("bg-opc-dark-brown");
@@ -22,7 +18,6 @@ export default function App() {
   const [borderTop, setBorderTop] = useState("br-top-dark-brown");
   const [borderLeft, setBorderLeft] = useState("br-left-dark-brown");
   const [borderRight, setBorderRight] = useState("br-right-dark-brown");
-  // websiteVisits();
 
   const [visitorNumber, setVisitorNumber] = useState("");
 
@@ -135,15 +130,6 @@ export default function App() {
         </p>
         <span id="visitor-number">{visitorNumber && visitorNumber}</span>
       </div>
-      {/* <div id="download">
-        <a href={cv} download="Cv">
-          CV Download
-        </a>
-        <a href={cv} target="_blank">
-          Show CV
-        </a>
-      </div>
-      <PdfCv /> */}
       <Footer color={color} bacgroundDark={bacgroundDark} />
     </div>
   );

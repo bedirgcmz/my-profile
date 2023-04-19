@@ -83,9 +83,9 @@
   }
   .links a {
     font-size: 0.4rem;
-    width: 82px;
-    height: 26px;
-    line-height: 26px;
+    width: 78px;
+    height: 16px;
+    line-height: 15px;
     margin: 3px;
   }
   .links a:hover {
