@@ -79,14 +79,18 @@
   }
   .links {
     position: static;
-    justify-content: center !important;
+    display: block !important;
+    width: 90%;
+    margin: auto;
+    text-align: center;
   }
   .links a {
-    font-size: 0.4rem;
-    width: 78px;
-    height: 18px;
-    line-height: 17px;
+    font-size: 0.6rem;
+    width: 100px;
+    height: 21px;
+    line-height: 20px;
     margin: 3px;
+    display: inline-block;
   }
   .links a:hover {
     transform: scale(1.07);
